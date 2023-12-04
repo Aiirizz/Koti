@@ -1,0 +1,47 @@
+.navbar-nav .nav-link {
+  margin-right: 75px;
+  font-family: "Jomhuria-Regular", Helvetica;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  line-height: normal;
+}
+
+
+.logo {
+  margin-left: 70px;
+
+}
+
+.custom-toggler {
+  margin-right: 20px;
+  background-color: white;
+}
+
+.nav-drop{
+  text-align: center;
+  margin-left: 50px;
+}
+
+.nav-link{
+  margin: 15px;
+}
+
+.mobile-link.active{
+  border-bottom: 5px solid #E49886;
+  color: white;
+}
+
+@media (max-width: 990px) {
+  .mobile-link.active {
+    border-bottom: 0px;
+    color: white;
+  }
+
+  .logo{
+    margin-left: 20px;
+
+  }
+}
+
+
