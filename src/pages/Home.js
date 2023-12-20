@@ -3,6 +3,7 @@ import ImgSlider from "../components/ImgSlider"
 import imgBenner from "../assets/benner1.png"
 import ImgGallery from "../components/ImgGallery"
 import Footer from "../components/Footer"
+import Review from "../components/Review"
 import "./css/Home.css";
 
 export default function Home(){
@@ -19,6 +20,7 @@ export default function Home(){
             </div>
             <ImgSlider/>
             <ImgGallery/>
+            <Review/>
             <Footer/>
         </div>
     )

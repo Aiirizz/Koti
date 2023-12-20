@@ -36,6 +36,13 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+
+  .text-center{
+    padding: 10px;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 30px;
+  }
 }
 
 /* Responsive styles for small screens (mobile) */

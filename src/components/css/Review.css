@@ -1,0 +1,105 @@
+/* Tampilan desktop */
+.d-none.d-md-block {
+
+    background-image: url(/src/assets/review/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 93vh;
+  }
+  
+  .carousel-mobile {
+    display: none;
+  }
+  
+  .small-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Gaya tambahan untuk tampilan desktop */
+  @media (min-width: 768px) {
+    .d-block.d-md-none {
+      display: none;
+    }
+  
+    .carousel-mobile {
+      display: none !important;
+    }
+  
+    .small-image {
+      margin-top: 70px;
+      border-style: solid;
+      border-width: 5px;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .caption {
+      text-align: left;
+      margin-top: 80px;
+      margin-left: 100px ;
+      color: white;
+    }
+    
+    .caption span {
+        background-color: #B7D3D9;
+        padding: 15px;
+    }
+  
+    .content {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .content > div {
+      flex:1;
+    }
+  }
+  
+ /* Gaya tambahan untuk tampilan mobile */
+@media (max-width: 767px) {
+    .d-block.d-md-none {
+      display: block; /* Ubah display menjadi block pada perangkat mobile */
+      background-image: url(/src/assets/review/background.png); /* Ganti gambar latar belakang untuk tampilan mobile jika diperlukan */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 60vh; /* Sesuaikan tinggi latar belakang sesuai kebutuhan Anda */
+    }
+  
+    .carousel-mobile {
+      display: block !important; /* Tampilkan Carousel pada perangkat mobile */
+      max-width: 80%; /* Sesuaikan lebar maksimum Carousel sesuai kebutuhan Anda */
+      margin: auto; /* Tengahkan Carousel */
+      margin-top: 20px; /* Sesuaikan margin-top sesuai kebutuhan Anda */
+      border-style: solid;
+      border-width: 5px;
+      border-radius: 20px;
+
+    }
+  
+    .carousel-mobile img {
+      width: 100%; /* Pastikan gambar di dalam Carousel mengikuti lebar Carousel */
+      height: auto;
+    }
+  
+    .caption {
+      text-align: left;
+      margin-left: -30px;
+      margin-top: 20px;
+      margin-right: -20px;
+      color: white;
+      padding: 50px;
+    }
+  
+    .caption span {
+      background-color: #B7D3D9;
+      padding: 10px;
+    }
+  }
+  
