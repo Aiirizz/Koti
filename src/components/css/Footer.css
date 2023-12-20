@@ -1,0 +1,35 @@
+/* Footer.css */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #856C4B; /* Set your desired background color */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    width: 60px; /* Adjust the logo width as needed */
+    height: auto;
+  }
+  
+  .logo-caption {
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .copyright-container {
+    text-align: right;
+  }
+  
+  .copyright-caption {
+    font-size: 12px;
+    color: white; /* Set your desired text color */
+  }
+  

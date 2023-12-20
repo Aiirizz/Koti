@@ -1,5 +1,8 @@
 import NavigationBar from "../components/NavigationBar";
+import ImgSlider from "../components/ImgSlider"
 import imgBenner from "../assets/benner1.png"
+import ImgGallery from "../components/ImgGallery"
+import Footer from "../components/Footer"
 import "./css/Home.css";
 
 export default function Home(){
@@ -12,8 +15,11 @@ export default function Home(){
                 <div class="title">
                     <h1>Kopi Koti</h1>
                     <h3>Coffeeshop & Rooftop Cafe</h3>
-                </div>  
+                </div>
             </div>
+            <ImgSlider/>
+            <ImgGallery/>
+            <Footer/>
         </div>
     )
 }
