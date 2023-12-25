@@ -1,0 +1,144 @@
+/* About.css */
+
+#parrent {
+    position: relative;
+    z-index: 0;
+}
+ 
+.content-1 {
+    text-align: center;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    position: relative;
+}
+
+.image1 {
+    flex: 1; 
+    box-shadow: rgb(255 255 255) -20px 0px 20px 20px inset;
+}
+
+.image1 img {
+    position: relative;
+    height: 100vh;
+    width: 100%; 
+    z-index: -1;
+}
+
+.isi1 {
+    flex: 1; 
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.content-2 h6{
+    color: #FFA792;
+    position: absolute;
+    margin-top: 89px;
+    margin-left: 143px;
+    font-weight: lighter;
+    font-size: 22px;
+
+}
+
+.content-2 h1{
+    font-weight: bold;
+    font-size: 64px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.content-2 h4{
+    font-size: 24px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: row; 
+    text-align: left;
+    position: relative;
+    align-items: center;
+}
+
+.isi2{
+    flex: 1;
+}
+
+.isi2 h4{
+    position: relative;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.image2 {
+    flex: 1; 
+    box-shadow: rgb(255 255 255) 20px 0px 20px 20px inset;
+}
+
+.image2 img {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: -1 ;
+}
+
+
+/* Media query for mobile responsiveness */
+@media (max-width: 600px) {
+    .content-2{
+        flex-direction: column; /* Stack elements vertically on small screens */
+    }
+
+    .content-3{
+        margin-top: 50px;
+        flex-direction: column-reverse;
+    }
+
+    .isi1{
+        flex: 1;
+        margin-top: -50px;
+        align-items: center;
+    }
+    
+    .content-2 h6 {
+        font-size: 14px;
+        margin-left: 37px;
+    }
+
+    .content-2 h1 {
+        font-size: 32px;
+        margin-left: 25px;
+    }
+
+    .content-2 h4 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .isi2{
+        flex: 1;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .content-3 h4{
+        font-size: 14px;
+    }
+
+    .image1 img, .image2 img {
+        height: 50vh;
+    }
+
+}
+  

@@ -1,5 +1,7 @@
 import NavigationBar from "../components/NavigationBar";
 import imgBanner from "../assets/benner1.png"
+import Footer from "../components/Footer"
+
 
 
 export default function Contact(){
@@ -14,6 +16,7 @@ export default function Contact(){
                     <h3>Kopi Koti</h3>
                 </div>  
             </div>
+            <Footer/>
         </div>
     )
 }
