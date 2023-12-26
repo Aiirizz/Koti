@@ -2,6 +2,7 @@ import { Nav, Navbar, Container, NavDropdown, NavbarBrand, NavLink, NavbarCollap
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 import logoImg from '../assets/lg-koti-circle.png'
 import './css/Navbar.css'
 
@@ -13,7 +14,7 @@ const NavigationBar = () => {
     };
 
     return (
-      <Navbar className="navbar navbar-dark" style={{ backgroundColor: '#856C4B' }} collapseOnSelect expand="md">
+      <Navbar className="navbar navbar-dark" style={{ backgroundColor: '#856C4B'}} collapseOnSelect expand="md">
         <Navbar.Brand className="logo">
           <img
           src = {logoImg}
