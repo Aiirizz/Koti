@@ -1,5 +1,6 @@
 import NavigationBar from "../components/NavigationBar";
 import imgBanner from "../assets/benner1.png"
+import Footer from "../components/Footer";
 
 
 export default function Menu(){
@@ -13,6 +14,7 @@ export default function Menu(){
                     <h3>Kopi Koti</h3>
                 </div>  
             </div>
+            <Footer/>
         </div>
     )
 }
