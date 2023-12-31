@@ -1,7 +1,8 @@
 import NavigationBar from "../components/NavigationBar";
 import imgBanner from "../assets/benner1.png"
 import Footer from "../components/Footer"
-import Img from "../assets/gallery/img2.png"
+import Img from "../assets/about/about_001.jpg"
+import Img2 from "../assets/about/about_002.jpg.png"
 import "../pages/css/About.css"
 
 
@@ -24,27 +25,23 @@ export default function About(){
                 <div className="isi1">    
                     <h6>About Koti</h6>
                     <h1>Cerita Kami</h1>
-                    <h4>Koti bergerak di bidang food and beverage khususnya kopi. Dengan menu andalannya
-                    kopi, koti juga menjual varian minuman lainnya seperti teh, minuman refreshing, milk
-                    based, dan juga mocktail.</h4>
+                    <h4>Koti, persembahan sebuah pengalaman eksklusif bagi para pecinta kopi dan pengunjung yang menghargai keindahan. 
+                        Sebuah perjalanan singkat di dalamnya seolah membawa setiap pengunjung 
+                        pada suatu petualangan rasional yang melibatkan indera penglihatan, penciuman, dan tentu saja, perasaan kenikmatan yang tak terlupakan. 
+                        </h4>
             
-                    <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. </h4>
+                    <h4>Koti bukan hanya sekadar kedai kopi, melainkan ruang kebersamaan yang membawa kebahagiaan bagi setiap pengunjungnya.. </h4>
                 </div>     
             </div>  
 
             <div className="content-3">
                 <div class="isi2">
-                    <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h4>
+                    <h4>Sebuah kedai kopi yang mengusung konsep family-friendly, menawarkan pengalaman unik yang cocok untuk segala usia. 
+                        Dengan desain interior yang ramah anak dan atmosfer yang hangat, 
+                        Koti menjadi tempat yang ideal untuk keluarga dan juga tempat berkumpul bagi anak muda.</h4>
                 </div>
                 <div class = "image2">
-                    <img src={Img}/> 
+                    <img src={Img2}/> 
                 </div>
             </div>
             <Footer/>

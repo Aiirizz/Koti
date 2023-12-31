@@ -17,6 +17,12 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .small-image:hover{
+    transform: scale(1.5);
+
   }
   
   /* Gaya tambahan untuk tampilan desktop */
@@ -42,7 +48,7 @@
     .caption {
       text-align: left;
       margin-top: 80px;
-      margin-left: 100px ;
+      margin-left: 100px;
       color: white;
     }
     
@@ -64,7 +70,8 @@
  /* Gaya tambahan untuk tampilan mobile */
 @media (max-width: 767px) {
     .d-block.d-md-none {
-      display: block; /* Ubah display menjadi block pada perangkat mobile */
+      display: flex; /* Ubah display menjadi block pada perangkat mobile */
+      flex-direction: column;
       background-image: url(/src/assets/review/background.png); /* Ganti gambar latar belakang untuk tampilan mobile jika diperlukan */
       background-size: cover;
       background-position: center;
@@ -76,25 +83,34 @@
       display: block !important; /* Tampilkan Carousel pada perangkat mobile */
       max-width: 80%; /* Sesuaikan lebar maksimum Carousel sesuai kebutuhan Anda */
       margin: auto; /* Tengahkan Carousel */
-      margin-top: 20px; /* Sesuaikan margin-top sesuai kebutuhan Anda */
+      margin-top: 50px;
       border-style: solid;
       border-width: 5px;
       border-radius: 20px;
+      height: auto;
+      width: auto;
+    }
 
+    .slider{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
     }
   
     .carousel-mobile img {
       width: 100%; /* Pastikan gambar di dalam Carousel mengikuti lebar Carousel */
       height: auto;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-mobile img:hover{
+      transform: scale(1.3);
     }
   
     .caption {
+      margin-top: 50px;
       text-align: left;
-      margin-left: -30px;
-      margin-top: 20px;
-      margin-right: -20px;
       color: white;
-      padding: 50px;
     }
   
     .caption span {

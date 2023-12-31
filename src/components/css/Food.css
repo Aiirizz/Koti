@@ -1,0 +1,66 @@
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .menu-food h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #E49886;
+    font-size: 40px;
+    margin-left: 50px;
+    padding: 15px;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+
+  }
+  
+  .menu-card {
+    flex: 0 1 calc(25% - 5px);
+    border: 1px solid #ddd;
+    background-color: #E49886;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .menu-card:hover{
+    transform: scale(1.1);
+  }
+  
+  .menu-card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+
+@media (max-width: 768px) {
+    .menu-container {
+        justify-content: center;
+        gap : 20px
+    }
+
+    .menu-food h2 {
+        margin-left: 0;
+    }
+
+    .menu-card {
+        flex: 0 1 calc(100% - 20px); /* Menggunakan 100% lebar dengan sedikit margin */
+        margin: 10px;
+    }
+
+    .menu-card:hover{
+        transform: scale(1.0);
+      }
+}  
+
+  

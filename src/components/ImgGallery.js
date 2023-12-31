@@ -1,6 +1,12 @@
 import React from 'react';
 import '../components/css/ImgGallery.css'; // Import your custom CSS for styling
-import img1 from "../assets/gallery/img1.png"
+import img1 from "../assets/gallery/img1.jpg"
+import img2 from "../assets/gallery/img2.jpg"
+import img3 from "../assets/gallery/img3.jpg"
+import img4 from "../assets/gallery/img4.jpg"
+import img5 from "../assets/gallery/img5.jpg"
+import img6 from "../assets/gallery/img6.jpg"
+
 
 const ImgGallery = () => {
   // Replace these image paths with your actual image paths
@@ -12,19 +18,19 @@ const ImgGallery = () => {
           <img src={img1} alt="Image 1" className="img-fluid" />
         </div>
         <div className="col-md-4">
-          <img src={img1} alt="Image 2" className="img-fluid" />
+          <img src={img2} alt="Image 2" className="img-fluid" />
         </div>
         <div className="col-md-4">
-          <img src={img1} alt="Image 3" className="img-fluid" />
+          <img src={img3} alt="Image 3" className="img-fluid" />
         </div>
         <div className="col-md-4">
-          <img src={img1} alt="Image 4" className="img-fluid" />
+          <img src={img4} alt="Image 4" className="img-fluid" />
         </div>
         <div className="col-md-4">
-          <img src={img1} alt="Image 5" className="img-fluid" />
+          <img src={img5} alt="Image 5" className="img-fluid" />
         </div>
         <div className="col-md-4">
-          <img src={img1} alt="Image 6" className="img-fluid" />
+          <img src={img6} alt="Image 6" className="img-fluid" />
         </div>
       </div>
     </div>
