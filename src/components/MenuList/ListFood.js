@@ -8,7 +8,7 @@ import dimsum from '../../assets/menu/food/dimsum.jpg';
 import dotiles from '../../assets/menu/food/dotileus.jpg';
 import fishNChips from '../../assets/menu/food/fishNChipsDory.jpeg';
 import grilledDory from '../../assets/menu/food/grilledDoryWithGarlicRice.jpeg';
-import mieNyemek from '../../assets/menu/food/mieNyemekKoti.jpg';
+import mieNyemek from '../../assets/menu/food/mieNyemekKoti.png';
 import nasiSapi from '../../assets/menu/food/nasisapisambalhijau.jpeg';
 import sphagetti from '../../assets/menu/food/sphagettiAyamMatah.jpeg';
 import spicyButter from '../../assets/menu/food/spicyButterChickenSphagetti.jpeg';

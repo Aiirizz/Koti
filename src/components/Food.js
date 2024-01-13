@@ -27,7 +27,6 @@ const MenuCard = () => {
 
   return (
     <div className='menu-food'>
-        <h2>Makanan.. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
         <div className="menu-container">
         {menuData.map((menu) => (
             <div key={menu.id} className="menu-card">

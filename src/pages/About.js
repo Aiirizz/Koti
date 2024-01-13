@@ -6,6 +6,7 @@ import Img2 from "../assets/about/about_002.jpg.png"
 import "../pages/css/About.css"
 
 
+
 export default function About(){
 
     return(

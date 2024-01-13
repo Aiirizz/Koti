@@ -22,21 +22,21 @@ export default function Menu(){
             <div class = "beli">
                 <h2>Beli Di Sini</h2>
                 <div className="button">
-                    <Link to="https://www.example.com" className="styled-button">
+                    <Link to="../contact" state={{ from: 'menu-bt' }} className="styled-button">
                     Outlet Koti
                     </Link>
-                    <Link to="https://www.example2.com" className="styled-button">
+                    <Link to="https://linktr.ee/kotikopi" target="_blank" className="styled-button">
                     Online Food App
                     </Link>
                 </div>
             </div>
             
             <Tabs
-                defaultActiveKey="food" id="uncontrolled-tab-example" className="mb-3" fill>
-                    <Tab eventKey="food" title={<span style={{ color: '#E49886' }}>Makanan</span>}>
+                defaultActiveKey="food" id="uncontrolled-tab-example" className="mb-3">
+                    <Tab eventKey="food" title={<span className="tab-title" style={{ color: '#E49886', fontSize: window.innerWidth <= 768 ? '18px' : '38px'}}>Makanan</span>}>
                         <Food/>
                     </Tab>
-                    <Tab eventKey="beverage" title={<span style={{ color: '#E49886' }}>Minuman</span>}>
+                    <Tab eventKey="beverage" title={<span className="tab-title" style={{ color: '#E49886',fontSize: window.innerWidth <= 768 ? '18px' : '38px'}}>Minuman</span>}>
                         <Beverages/>
                     </Tab>
             </Tabs>

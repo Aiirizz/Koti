@@ -11,15 +11,15 @@ const MenuCard = () => {
     { id: 5, nama: 'Milk Based', key: "milkBased" },
     { id: 6, nama: 'Purple Paredise', key: "purple" },
     { id: 7, nama: 'Rock Gummy', key: "rock" },
-    { id: 8, nama: 'Strawberry Rosemary', key: "strawberry" },
-    { id: 9, nama: 'Vanilla Regal', key: "vanilla" },
+    { id: 8, nama: 'Vanilla Regal', key: "vanilla" },
+    { id: 9, nama: 'Strawberry Rosemary', key: "strawberry" },
+
 
     // Tambahkan menu lainnya sesuai kebutuhan
   ];
 
   return (
     <div className='menu-food'>
-        <h2>Minuman.. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
         <div className="menu-container">
         {menuData.map((menu) => (
             <div key={menu.id} className="menu-card">

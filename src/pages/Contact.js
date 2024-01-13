@@ -6,8 +6,33 @@ import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "../components/CardLoc"
 import "../pages/css/Contact.css"
+import img1 from "../assets/contact/contact001.png"
+import img2 from "../assets/contact/contact002.jpg"
+
+import React, { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+
+
 
 export default function Contact(){
+
+    const location = useLocation();
+
+    useEffect(() => {
+      // Fungsi untuk mengatur scroll ke elemen dengan class "content-2"
+      const scrollToContent2 = () => {
+        const content2Element = document.querySelector('.content-2');
+        if (content2Element) {
+          content2Element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+  
+      // Cek apakah kita berpindah ke halaman ini dari halaman lain
+      if (location.state && location.state.from === "menu-bt") {
+        // Jika iya, tunggu sebentar sebelum melakukan scroll
+        setTimeout(scrollToContent2, 100);
+      } 
+    }, [location]);
 
     return(
         <div className="box">
@@ -30,12 +55,12 @@ export default function Contact(){
                     </div>
                 </div>
                 <div class="right">
-                    <img src={imgBanner}/>
+                    <img src={img2}/>
                 </div>       
             </div>    
             <div class="content-3">
                 <div class = "left-3">
-                    <img src={imgBanner}/>
+                    <img src={img1}/>
                 </div>
                 <div class = "right-3">
                     <div class = "title-2">
@@ -49,7 +74,7 @@ export default function Contact(){
                         </div>
                         <div class = "wa">
                             <FontAwesomeIcon icon={faWhatsapp} style={{fontSize: '4em', color: 'black'}}/>
-                            <h4>+62 9280582093</h4>
+                            <h4>+62 821 1495 7281</h4>
                         </div>
                     </div>                  
                 </div>

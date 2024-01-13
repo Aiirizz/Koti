@@ -16,9 +16,10 @@ const ListBeverages = {
     milkBased,
     purple,
     rock,
-    strawberry,
-    vanilla
+    vanilla,
+    strawberry
     
+  
     // Tambahkan gambar menu lainnya sesuai kebutuhan
   };
   

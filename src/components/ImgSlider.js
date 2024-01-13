@@ -1,5 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from '../assets/slider/Img1.jpg'
+import img1 from '../assets/slider/slide001.png'
+import img2 from '../assets/slider/slide002.png'
+import img3 from '../assets/slider/slide003.png'
+
 
 function DarkVariantExample() {
 
@@ -10,7 +13,7 @@ function DarkVariantExample() {
       };
 
   return (
-    <Carousel data-bs-theme="light">
+    <Carousel data-bs-theme="light" interval={2500}>
       <Carousel.Item className="custom-carousel-item">
         <img
           src={img1}
@@ -18,33 +21,30 @@ function DarkVariantExample() {
           style={imgStyle}
         />
         <Carousel.Caption className="custom-carousel-caption">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h4>"Welcome to our coffee sanctuary where every sip tells a story."</h4>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={img1}
+          src={img2}
           alt="IMAGE 2"
           style={imgStyle}
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h4>"Where the art of coffee meets the canvas of creativity.
+             Sip, savor, and let the brushstrokes of flavor paint your day."</h4>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={img1}
+          src={img3}
           alt="IMAGE 3"
           style={imgStyle}
 
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h4>"At our coffee haven, every brew and bite is a chapter waiting to be written. <br></br>
+            Gather 'round, savor the flavors, and let the tales unfold."</h4>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
